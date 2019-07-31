@@ -1,7 +1,7 @@
-//1) Faça um programa em Javascript que leia as 
-//3 notas de um aluno e calcule a média final 
-//deste aluno. Considerar que a média é 
-//ponderada e que o peso das notas é: 2,3 e 5, 
+//1) Faça um programa em Javascript que leia as
+//3 notas de um aluno e calcule a média final
+//deste aluno. Considerar que a média é
+//ponderada e que o peso das notas é: 2,3 e 5,
 //respectivamente
 
 var a = parseInt(prompt("Insira a primeira nota"));
@@ -15,7 +15,6 @@ var sum = (a * d) + (b * e) + (c * f);
 if (sum <=0){
     document.body.append ("Nota inválida");
 } else {
-     if (sum > 0){
     var x1 = sum / (d + e + f);
-    document.body.append ("Sua média final é " + x1)}
+    document.body.append ("Sua média final é " + x1)
 }
