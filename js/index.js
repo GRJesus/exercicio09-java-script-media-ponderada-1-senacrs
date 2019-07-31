@@ -15,7 +15,7 @@ var sum = (a * d) + (b * e) + (c * f);
 if (sum <=0){
     document.body.append ("Nota inválida");
 } else {
-     if (sum >=0){
+     if (sum > 0){
     var x1 = sum / (d + e + f);
     document.body.append ("Sua média final é " + x1)}
 }
